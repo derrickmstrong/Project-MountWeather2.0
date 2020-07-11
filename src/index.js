@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+import ByCity from './components/ByCity';
+import ByCityId from './components/ByCityId';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ByCity />
+    <ByCityId />
   </React.StrictMode>,
   document.getElementById('root')
 );

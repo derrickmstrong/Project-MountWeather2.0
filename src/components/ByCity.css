@@ -1,0 +1,29 @@
+.by-city {
+  display: grid;
+  grid-template-areas: 
+  'form'
+  'name' 
+  'icon'
+  'description'
+  'temp';
+  justify-items: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.form {
+  grid-area: form;
+  width: 25%;
+}
+.name {
+  grid-area: name;
+}
+.icon {
+  grid-area: icon;
+}
+.description {
+  grid-area: description;
+}
+.temp {
+  grid-area: temp;
+}
